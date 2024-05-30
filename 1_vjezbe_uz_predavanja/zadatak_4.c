@@ -26,7 +26,11 @@ int main(void){
     float num, div;
     printf("Upisite divided i divizor: ");
     scanf("%f %f", &num, &div);
-
-    printf("\nRezultat djeljenja je: %.4f", num/div);
+    if (div != 0){
+        printf("\nRezultat djeljenja je: %.4f", num/div);
+    } else {
+        printf("Rezultat operacije nije definiran");
+    }
+    
     return 0;
 }
