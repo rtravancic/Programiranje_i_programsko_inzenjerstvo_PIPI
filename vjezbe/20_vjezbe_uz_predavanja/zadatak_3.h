@@ -1,0 +1,1 @@
+char *traziPrviSamoglasnik(char *p);

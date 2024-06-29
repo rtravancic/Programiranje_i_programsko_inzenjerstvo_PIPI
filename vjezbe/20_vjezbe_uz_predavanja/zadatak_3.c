@@ -22,6 +22,8 @@ char *traziPrviSamoglasnik(char *p){
     }
     return NULL;
 }
+/*
+
 
 int main(void){
     char polje[MAXL + 1];
@@ -33,3 +35,4 @@ int main(void){
     else printf("\nVracen je NULL pokazivac.");
     return 0;
 }
+*/
