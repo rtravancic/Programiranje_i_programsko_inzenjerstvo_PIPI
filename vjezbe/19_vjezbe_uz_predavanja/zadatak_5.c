@@ -1,0 +1,15 @@
+//5. Što će se ispisati sljedećim programom:
+
+
+#include <stdio.h> 
+void f (int *p) { 
+ static int i = 2; 
+ printf ("%d\n", *(p + ++i)); 
+} 
+int main (void) { 
+ int polje[3][2] = {1, 2, 3, 4, 5, 6};  
+ f(&polje[0][0]); // 4
+ f(&polje[0][0]); // 5
+ f(&polje[0][0]); // 6
+ return 0; 
+}
