@@ -1,0 +1,4 @@
+Ovo je neka recenica koja se koristi    u drugom zadatku.
+U ovom zadatku broje se samoglasnici.
+Veliki i mali.
+Ukupan broj samoglasnika je: 
